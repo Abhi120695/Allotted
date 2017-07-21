@@ -1,0 +1,1360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="1dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="1.5dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.au.allotedv5.Seleectslots"
+    tools:showIn="@layout/activity_seleectslots"
+    android:background="@drawable/finalback">
+    <ToggleButton
+
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="A1"
+        android:id="@+id/button"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:textOff="A1"
+        android:textOn="A1" android:textSize="8sp"
+        android:checked="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" android:background="@drawable/mybtntoggle"
+
+        android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton"
+        android:textOff="L1"
+        android:textOn="L1"
+        android:paddingEnd="0dp"
+        android:paddingStart="0dp"
+        android:textSize="8sp"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="B1"
+        android:id="@+id/button2"
+        android:paddingEnd="0dp"
+        android:paddingStart="0dp"
+        android:textOff="B1"
+        android:textOn="B1" android:textSize="8sp"
+        android:layout_below="@+id/toggleButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton2"
+        android:textOn="L7"
+        android:textOff="L7"
+        android:textSize="8sp"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" android:background="@drawable/mybtntoggle1"
+        android:width="1dp" android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="C1"
+        android:id="@+id/button3"
+        android:textOff="C1"
+        android:textOn="C1" android:textSize="8sp"
+        android:layout_below="@+id/toggleButton7"
+        android:layout_toLeftOf="@+id/toggleButton7"
+        android:layout_toStartOf="@+id/toggleButton7" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton3"
+        android:textOff="L13"
+        android:textOn="L13"
+        android:textSize="8sp"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="D1"
+        android:id="@+id/button4"
+        android:textOn="D1"
+        android:textOff="D1" android:textSize="8sp"
+        android:layout_below="@+id/toggleButton3"
+        android:layout_toLeftOf="@+id/toggleButton10"
+        android:layout_toStartOf="@+id/toggleButton10" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton4"
+        android:textOff="L19"
+        android:textOn="L19"
+        android:textSize="8sp"
+        android:layout_below="@+id/button4"
+        android:layout_toLeftOf="@+id/toggleButton11"
+        android:layout_toStartOf="@+id/toggleButton11" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="E1"
+        android:id="@+id/button5"
+        android:textOff="E1"
+        android:textOn="E1" android:textSize="8sp"
+        android:layout_below="@+id/toggleButton4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton5"
+        android:textOff="L25"
+        android:textOn="L25"
+        android:textSize="8sp"
+        android:layout_below="@+id/button5"
+        android:layout_toLeftOf="@+id/toggleButton12"
+        android:layout_toStartOf="@+id/toggleButton12" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="F1"
+        android:id="@+id/button6"
+        android:layout_alignTop="@+id/button"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button"
+        android:textOn="F1"
+        android:textOff="F1" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton6"
+        android:textOff="L2"
+        android:textOn="L2" android:textSize="8sp"
+        android:layout_above="@+id/button7"
+        android:layout_toLeftOf="@+id/toggleButton15"
+        android:layout_toStartOf="@+id/toggleButton15" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="F1"
+        android:id="@+id/button7"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignLeft="@+id/toggleButton6"
+        android:layout_alignStart="@+id/toggleButton6"
+        android:checked="false"
+        android:textOff="G1"
+        android:textOn="G1" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton7"
+        android:textOff="L8"
+        android:textOn="L8" android:textSize="8sp"
+        android:layout_below="@+id/button7"
+        android:layout_toLeftOf="@+id/toggleButton17"
+        android:layout_toStartOf="@+id/toggleButton17" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton8"
+        android:textOff="F1"
+        android:textOn="F1" android:textSize="8sp"
+        android:layout_below="@+id/toggleButton7"
+        android:layout_toLeftOf="@+id/toggleButton18"
+        android:layout_toStartOf="@+id/toggleButton18" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton9"
+        android:layout_above="@+id/button4"
+        android:layout_alignLeft="@+id/toggleButton8"
+        android:layout_alignStart="@+id/toggleButton8"
+        android:textOn="L14"
+        android:textOff="L14" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton10"
+        android:textOff="A1"
+        android:textOn="A1"
+        android:layout_alignTop="@+id/button4"
+        android:layout_alignLeft="@+id/toggleButton9"
+        android:layout_alignStart="@+id/toggleButton9" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton11"
+        android:textOn="L20"
+        android:textOff="L20"
+        android:layout_alignTop="@+id/toggleButton4"
+        android:layout_alignLeft="@+id/toggleButton10"
+        android:layout_alignStart="@+id/toggleButton10" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton12"
+        android:textOff="B1"
+        android:textOn="B1"
+        android:layout_alignTop="@+id/button5"
+        android:layout_alignLeft="@+id/toggleButton11"
+        android:layout_alignStart="@+id/toggleButton11" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton13"
+        android:textOn="L26"
+        android:textOff="L26"
+        android:layout_alignTop="@+id/toggleButton5"
+        android:layout_alignLeft="@+id/toggleButton11"
+        android:layout_alignStart="@+id/toggleButton11" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton14"
+        android:textOff="C1"
+        android:textOn="C1"
+        android:layout_alignTop="@+id/button6"
+        android:layout_toRightOf="@+id/button6"
+        android:layout_toEndOf="@+id/button6" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton15"
+        android:layout_alignTop="@+id/toggleButton6"
+        android:layout_alignLeft="@+id/toggleButton14"
+        android:layout_alignStart="@+id/toggleButton14"
+        android:textOff="L3"
+        android:textOn="L3" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton16"
+        android:layout_alignTop="@+id/button7"
+        android:layout_toRightOf="@+id/toggleButton6"
+        android:layout_toEndOf="@+id/toggleButton6"
+        android:textOff="D1"
+        android:textOn="D1" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton17"
+        android:textOff="L9"
+        android:textOn="L9"
+        android:layout_alignTop="@+id/toggleButton7"
+        android:layout_alignLeft="@+id/toggleButton16"
+        android:layout_alignStart="@+id/toggleButton16" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton18"
+        android:textOff="E1"
+        android:textOn="E1"
+        android:layout_alignTop="@+id/toggleButton8"
+        android:layout_alignLeft="@+id/toggleButton17"
+        android:layout_alignStart="@+id/toggleButton17" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton19"
+        android:textOff="L15"
+        android:textOn="L15"
+        android:layout_alignTop="@+id/toggleButton9"
+        android:layout_alignLeft="@+id/toggleButton18"
+        android:layout_alignStart="@+id/toggleButton18"
+        android:textSize="8sp"  android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton20"
+        android:textOff="F1"
+        android:textOn="F1"
+        android:layout_alignTop="@+id/toggleButton10"
+        android:layout_alignLeft="@+id/toggleButton19"
+        android:layout_alignStart="@+id/toggleButton19" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton21"
+        android:textOff="L21"
+        android:textOn="L21"
+        android:layout_alignTop="@+id/toggleButton11"
+        android:layout_toRightOf="@+id/toggleButton10"
+        android:layout_toEndOf="@+id/toggleButton10" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton22"
+        android:textOff="G1"
+        android:textOn="G1"
+        android:layout_alignTop="@+id/toggleButton12"
+        android:layout_alignLeft="@+id/toggleButton21"
+        android:layout_alignStart="@+id/toggleButton21"
+        android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton23"
+        android:textOff="L27"
+        android:textOn="L27"
+        android:layout_alignTop="@+id/toggleButton13"
+        android:layout_alignLeft="@+id/toggleButton22"
+        android:layout_alignStart="@+id/toggleButton22" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton24"
+        android:textOff="E1"
+        android:textOn="E1"
+        android:layout_alignTop="@+id/toggleButton14"
+        android:layout_toRightOf="@+id/toggleButton14"
+        android:layout_toEndOf="@+id/toggleButton14" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton25"
+        android:textOff="L4"
+        android:textOn="L4"
+        android:layout_alignTop="@+id/toggleButton15"
+        android:layout_toRightOf="@+id/toggleButton14"
+        android:layout_toEndOf="@+id/toggleButton14" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton26"
+        android:textOff="TA1"
+        android:textOn="TA1"
+        android:layout_alignTop="@+id/toggleButton16"
+        android:layout_toRightOf="@+id/toggleButton15"
+        android:layout_toEndOf="@+id/toggleButton15" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton27"
+        android:textOff="L10"
+        android:textOn="L10"
+        android:layout_alignTop="@+id/toggleButton17"
+        android:layout_toRightOf="@+id/toggleButton16"
+        android:layout_toEndOf="@+id/toggleButton16" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton28"
+        android:textOff="C1"
+        android:textOn="C1"
+        android:layout_alignTop="@+id/toggleButton20"
+        android:layout_toRightOf="@+id/toggleButton19"
+        android:layout_toEndOf="@+id/toggleButton19" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton29"
+        android:textOff="L22"
+        android:textOn="L22"
+        android:layout_alignTop="@+id/toggleButton21"
+        android:layout_toRightOf="@+id/toggleButton20"
+        android:layout_toEndOf="@+id/toggleButton20" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton30"
+        android:textOff="D1"
+        android:textOn="D1"
+        android:layout_alignTop="@+id/toggleButton22"
+        android:layout_toRightOf="@+id/toggleButton21"
+        android:layout_toEndOf="@+id/toggleButton21" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton31"
+        android:textOff="L28"
+        android:textOn="L28"
+        android:layout_alignTop="@+id/toggleButton23"
+        android:layout_toRightOf="@+id/toggleButton22"
+        android:layout_toEndOf="@+id/toggleButton22" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton32"
+        android:textOff="TD1"
+        android:textOn="TD1"
+        android:layout_alignTop="@+id/toggleButton24"
+        android:layout_toRightOf="@+id/toggleButton24"
+        android:layout_toEndOf="@+id/toggleButton24" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton33"
+        android:textOff="L5"
+        android:textOn="L5"
+        android:layout_alignTop="@+id/toggleButton25"
+        android:layout_toRightOf="@+id/toggleButton24"
+        android:layout_toEndOf="@+id/toggleButton24" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton34"
+        android:textOff="TF1"
+        android:textOn="TF1"
+        android:layout_alignTop="@+id/toggleButton26"
+        android:layout_toRightOf="@+id/toggleButton25"
+        android:layout_toEndOf="@+id/toggleButton25" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton35"
+        android:textOff="L11"
+        android:textOn="L11"
+        android:layout_alignTop="@+id/toggleButton27"
+        android:layout_toRightOf="@+id/toggleButton26"
+        android:layout_toEndOf="@+id/toggleButton26" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton36"
+        android:textOff="TE1"
+        android:textOn="TE1"
+        android:layout_alignTop="@+id/toggleButton28"
+        android:layout_toRightOf="@+id/toggleButton28"
+        android:layout_toEndOf="@+id/toggleButton28" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton37"
+        android:textOff="L23"
+        android:textOn="L23"
+        android:layout_above="@+id/button5"
+        android:layout_toRightOf="@+id/toggleButton28"
+        android:layout_toEndOf="@+id/toggleButton28" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton38"
+        android:textOff="TC1"
+        android:textOn="TC1"
+        android:layout_alignTop="@+id/toggleButton30"
+        android:layout_toRightOf="@+id/toggleButton29"
+        android:layout_toEndOf="@+id/toggleButton29" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton39"
+        android:textOff="L29"
+        android:textOn="L29"
+        android:layout_alignTop="@+id/toggleButton31"
+        android:layout_toRightOf="@+id/toggleButton30"
+        android:layout_toEndOf="@+id/toggleButton30" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton40"
+        android:textOff="L6"
+        android:textOn="L6"
+        android:layout_alignTop="@+id/toggleButton33"
+        android:layout_toRightOf="@+id/toggleButton32"
+        android:layout_toEndOf="@+id/toggleButton32" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton41"
+        android:textOff="L12"
+        android:textOn="L12"
+        android:layout_alignTop="@+id/toggleButton35"
+        android:layout_alignLeft="@+id/toggleButton40"
+        android:layout_alignStart="@+id/toggleButton40" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButtonI42"
+        android:textOff="L24"
+        android:textOn="L24"
+        android:layout_alignTop="@+id/toggleButton37"
+        android:layout_alignLeft="@+id/toggleButton41"
+        android:layout_alignStart="@+id/toggleButton41" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton43"
+        android:textOff="L30"
+        android:textOn="L30"
+        android:layout_alignTop="@+id/toggleButton39"
+        android:layout_toRightOf="@+id/toggleButton38"
+        android:layout_toEndOf="@+id/toggleButton38" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="342dp"
+        android:text="@string/Lunch"
+        android:id="@+id/button8"
+        android:layout_alignTop="@+id/toggleButton32"
+        android:layout_toRightOf="@+id/toggleButton40"
+        android:layout_toEndOf="@+id/toggleButton40"
+        android:layout_alignBottom="@+id/toggleButton43" android:textSize="8sp" android:background="#803261AC"
+        android:textColor="#fefdfd"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEMINAR"
+        android:id="@+id/button11"
+        android:layout_alignTop="@+id/toggleButton18"
+        android:layout_alignLeft="@+id/toggleButton27"
+        android:layout_alignStart="@+id/toggleButton27"
+        android:layout_alignRight="@+id/toggleButton41"
+        android:layout_alignEnd="@+id/toggleButton41"
+        android:layout_above="@+id/toggleButton28" android:textSize="8sp" android:background="@drawable/shape2"  android:textColor="#FF020202"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton44"
+        android:textOff="A2"
+        android:textOn="A2"
+        android:layout_alignTop="@+id/button8"
+        android:layout_alignLeft="@+id/toggleButton50"
+        android:layout_alignStart="@+id/toggleButton50" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton46"
+        android:textOff="F2"
+        android:textOn="F2"
+        android:layout_alignTop="@+id/toggleButton44"
+        android:layout_toRightOf="@+id/toggleButton44"
+        android:layout_toEndOf="@+id/toggleButton44" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton47"
+        android:textOff="C2"
+        android:textOn="C2"
+        android:layout_alignTop="@+id/toggleButton46"
+        android:layout_toRightOf="@+id/toggleButton46"
+        android:layout_toEndOf="@+id/toggleButton46" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton48"
+        android:textOff="E2"
+        android:textOn="E2"
+        android:layout_alignTop="@+id/toggleButton47"
+        android:layout_toRightOf="@+id/toggleButton47"
+        android:layout_toEndOf="@+id/toggleButton47" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton49"
+        android:textOff="TD2"
+        android:textOn="TD2"
+        android:layout_alignTop="@+id/toggleButton48"
+        android:layout_toRightOf="@+id/toggleButton48"
+        android:layout_toEndOf="@+id/toggleButton48" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton45"
+        android:textOff="L31"
+        android:textOn="L31"
+        android:layout_above="@+id/button2"
+        android:layout_alignLeft="@+id/toggleButton44"
+        android:layout_alignStart="@+id/toggleButton44" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton50"
+        android:textOff="B2"
+        android:textOn="B2"
+        android:layout_alignTop="@+id/toggleButton34"
+        android:layout_toRightOf="@+id/button8"
+        android:layout_toEndOf="@+id/button8" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton51"
+        android:textOff="L37"
+        android:textOn="L37"
+        android:layout_alignTop="@+id/toggleButton41"
+        android:layout_alignLeft="@+id/toggleButton50"
+        android:layout_alignStart="@+id/toggleButton50" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton42"
+        android:textOff="L36"
+        android:textOn="L36"
+        android:layout_above="@+id/button2"
+        android:layout_toRightOf="@+id/toggleButton49"
+        android:layout_toEndOf="@+id/toggleButton49" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton52"
+        android:textOff="G2"
+        android:textOn="G2"
+        android:layout_alignTop="@+id/toggleButton50"
+        android:layout_toRightOf="@+id/toggleButton45"
+        android:layout_toEndOf="@+id/toggleButton45" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton53"
+        android:textOff="L38"
+        android:textOn="L38"
+        android:layout_alignTop="@+id/toggleButton51"
+        android:layout_toRightOf="@+id/toggleButton50"
+        android:layout_toEndOf="@+id/toggleButton50" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton54"
+        android:textOff="TA2"
+        android:textOn="TA2"
+        android:layout_alignTop="@+id/toggleButton55"
+        android:layout_alignLeft="@+id/toggleButton48"
+        android:layout_alignStart="@+id/toggleButton48" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton55"
+        android:textOff="D2"
+        android:textOn="D2"
+        android:layout_alignTop="@+id/toggleButton52"
+        android:layout_toRightOf="@+id/toggleButton52"
+        android:layout_toEndOf="@+id/toggleButton52" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton56"
+        android:textOff="TF2"
+        android:textOn="TF2"
+        android:layout_alignTop="@+id/toggleButton54"
+        android:layout_toRightOf="@+id/toggleButton54"
+        android:layout_toEndOf="@+id/toggleButton54" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton57"
+        android:textOff="L35"
+        android:textOn="L35"
+        android:layout_above="@+id/button2"
+        android:layout_toRightOf="@+id/toggleButton48"
+        android:layout_toEndOf="@+id/toggleButton48" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton58"
+        android:textOff="L39"
+        android:textOn="L39"
+        android:layout_alignTop="@+id/toggleButton53"
+        android:layout_toLeftOf="@+id/toggleButton54"
+        android:layout_toStartOf="@+id/toggleButton54" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton59"
+        android:textOff="L40"
+        android:textOn="L40"
+        android:layout_alignTop="@+id/toggleButton58"
+        android:layout_alignLeft="@+id/toggleButton54"
+        android:layout_alignStart="@+id/toggleButton54" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton60"
+        android:textOff="L41"
+        android:textOn="L41"
+        android:layout_alignTop="@+id/toggleButton59"
+        android:layout_toRightOf="@+id/toggleButton54"
+        android:layout_toEndOf="@+id/toggleButton54" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton61"
+        android:textOff="L42"
+        android:textOn="L42"
+        android:layout_alignTop="@+id/toggleButton60"
+        android:layout_toRightOf="@+id/toggleButton56"
+        android:layout_toEndOf="@+id/toggleButton56" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton62"
+        android:textOff="C2"
+        android:textOn="C2"
+        android:layout_alignBottom="@+id/toggleButton18"
+        android:layout_toRightOf="@+id/button8"
+        android:layout_toEndOf="@+id/button8" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton63"
+        android:textOff="L43"
+        android:textOn="L43"
+        android:layout_alignTop="@+id/toggleButton19"
+        android:layout_alignLeft="@+id/toggleButton62"
+        android:layout_alignStart="@+id/toggleButton62" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton64"
+        android:textOff="D2"
+        android:textOn="D2"
+        android:layout_alignTop="@+id/toggleButton36"
+        android:layout_toRightOf="@+id/button8"
+        android:layout_toEndOf="@+id/button8" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton65"
+        android:textOff="L49"
+        android:textOn="L49"
+        android:layout_alignTop="@+id/toggleButtonI42"
+        android:layout_alignLeft="@+id/toggleButton64"
+        android:layout_alignStart="@+id/toggleButton64" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton66"
+        android:textOff="E2"
+        android:textOn="E2"
+        android:layout_alignTop="@+id/toggleButton38"
+        android:layout_alignLeft="@+id/toggleButton65"
+        android:layout_alignStart="@+id/toggleButton65" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton67"
+        android:textOff="L55"
+        android:textOn="L55"
+        android:layout_alignBottom="@+id/button8"
+        android:layout_toRightOf="@+id/button8"
+        android:layout_toEndOf="@+id/button8" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton68"
+        android:textOff="F2"
+        android:textOn="F2"
+        android:layout_alignTop="@+id/toggleButton62"
+        android:layout_toRightOf="@+id/toggleButton51"
+        android:layout_toEndOf="@+id/toggleButton51" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton69"
+        android:textOff="E2"
+        android:textOn="E2"
+        android:layout_alignTop="@+id/toggleButton68"
+        android:layout_toLeftOf="@+id/toggleButton59"
+        android:layout_toStartOf="@+id/toggleButton59" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton70"
+        android:textOff="TB2"
+        android:textOn="TB2"
+        android:layout_alignTop="@+id/toggleButton69"
+        android:layout_alignLeft="@+id/toggleButton59"
+        android:layout_alignStart="@+id/toggleButton59" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton71"
+        android:textOff="TG2"
+        android:textOn="TG2"
+        android:layout_alignTop="@+id/toggleButton70"
+        android:layout_toRightOf="@+id/toggleButton59"
+        android:layout_toEndOf="@+id/toggleButton59" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton72"
+        android:textOff="A2"
+        android:textOn="A2"
+        android:layout_below="@+id/button11"
+        android:layout_toRightOf="@+id/toggleButton63"
+        android:layout_toEndOf="@+id/toggleButton63" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton73"
+        android:textOff="L44"
+        android:textOn="L44"
+        android:layout_above="@+id/button4"
+        android:layout_toRightOf="@+id/toggleButton62"
+        android:layout_toEndOf="@+id/toggleButton62" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton74"
+        android:textOff="L45"
+        android:textOn="L45"
+        android:layout_alignTop="@+id/toggleButton73"
+        android:layout_toLeftOf="@+id/toggleButton70"
+        android:layout_toStartOf="@+id/toggleButton70" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton75"
+        android:textOff="L46"
+        android:textOn="L46"
+        android:layout_above="@+id/button4"
+        android:layout_alignLeft="@+id/toggleButton70"
+        android:layout_alignStart="@+id/toggleButton70" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton76"
+        android:textOff="L47"
+        android:textOn="L47"
+        android:layout_alignTop="@+id/toggleButton75"
+        android:layout_toRightOf="@+id/toggleButton70"
+        android:layout_toEndOf="@+id/toggleButton70" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton77"
+        android:textOff="L48"
+        android:textOn="L48"
+        android:layout_alignTop="@+id/toggleButton76"
+        android:layout_toRightOf="@+id/toggleButton71"
+        android:layout_toEndOf="@+id/toggleButton71" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton78"
+        android:textOff="B2"
+        android:textOn="B2"
+        android:layout_alignTop="@+id/toggleButton66"
+        android:layout_toRightOf="@+id/toggleButton65"
+        android:layout_toEndOf="@+id/toggleButton65" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton79"
+        android:textOff="L50"
+        android:textOn="L50"
+        android:layout_above="@+id/button5"
+        android:layout_toRightOf="@+id/toggleButton64"
+        android:layout_toEndOf="@+id/toggleButton64" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton80"
+        android:textOff="L56"
+        android:textOn="L56"
+        android:layout_alignTop="@+id/toggleButton67"
+        android:layout_toRightOf="@+id/toggleButton66"
+        android:layout_toEndOf="@+id/toggleButton66" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton81"
+        android:textOff="L32"
+        android:textOn="L32"
+        android:layout_above="@+id/button2"
+        android:layout_toRightOf="@+id/toggleButton44"
+        android:layout_toEndOf="@+id/toggleButton44" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton82"
+        android:textOff="L33"
+        android:textOn="L33"
+        android:layout_alignTop="@+id/toggleButton83"
+        android:layout_toLeftOf="@+id/toggleButton48"
+        android:layout_toStartOf="@+id/toggleButton48" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton83"
+        android:textOff="L34"
+        android:textOn="L34"
+        android:layout_alignTop="@+id/toggleButton57"
+        android:layout_alignLeft="@+id/toggleButton48"
+        android:layout_alignStart="@+id/toggleButton48" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton84"
+        android:textOff="F2"
+        android:textOn="F2"
+        android:layout_alignTop="@+id/toggleButton72"
+        android:layout_toLeftOf="@+id/toggleButton75"
+        android:layout_toStartOf="@+id/toggleButton75" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton85"
+        android:textOff="G2"
+        android:textOn="G2"
+        android:layout_alignTop="@+id/toggleButton78"
+        android:layout_toLeftOf="@+id/toggleButton75"
+        android:layout_toStartOf="@+id/toggleButton75" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton86"
+        android:textOff="C2"
+        android:textOn="C2"
+        android:layout_alignTop="@+id/toggleButton84"
+        android:layout_alignLeft="@+id/toggleButton75"
+        android:layout_alignStart="@+id/toggleButton75" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton87"
+        android:textOff="TE2"
+        android:textOn="TE2"
+        android:layout_alignTop="@+id/toggleButton86"
+        android:layout_toRightOf="@+id/toggleButton75"
+        android:layout_toEndOf="@+id/toggleButton75" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton88"
+        android:textOff="L57"
+        android:textOn="L57"
+        android:layout_alignTop="@+id/toggleButton80"
+        android:layout_toRightOf="@+id/toggleButton78"
+        android:layout_toEndOf="@+id/toggleButton78" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton89"
+        android:textOff="L51"
+        android:textOn="L51"
+        android:layout_alignTop="@+id/toggleButton79"
+        android:layout_toLeftOf="@+id/toggleButton86"
+        android:layout_toStartOf="@+id/toggleButton86" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton90"
+        android:textOff="L52"
+        android:textOn="L52"
+        android:layout_above="@+id/button5"
+        android:layout_alignLeft="@+id/toggleButton86"
+        android:layout_alignStart="@+id/toggleButton86" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton91"
+        android:textOff="L53"
+        android:textOn="L53"
+        android:layout_alignTop="@+id/toggleButton90"
+        android:layout_toRightOf="@+id/toggleButton86"
+        android:layout_toEndOf="@+id/toggleButton86" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton92"
+        android:textOff="D2"
+        android:textOn="D2"
+        android:layout_alignTop="@+id/toggleButton85"
+        android:layout_alignLeft="@+id/toggleButton90"
+        android:layout_alignStart="@+id/toggleButton90" android:textSize="8sp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton93"
+        android:textOff="L58"
+        android:textOn="L58"
+        android:layout_alignTop="@+id/toggleButton88"
+        android:layout_toRightOf="@+id/toggleButton85"
+        android:layout_toEndOf="@+id/toggleButton85" android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton94"
+        android:textOff="L54"
+        android:textOn="L54"
+        android:layout_alignTop="@+id/toggleButton91"
+        android:layout_toRightOf="@+id/toggleButton87"
+        android:layout_toEndOf="@+id/toggleButton87"
+        android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton95"
+        android:textOff="TC2"
+        android:textOn="TC2"
+        android:layout_alignTop="@+id/toggleButton92"
+        android:layout_toRightOf="@+id/toggleButton90"
+        android:layout_toEndOf="@+id/toggleButton90"
+        android:textSize="8dp" android:background="@drawable/mybtntoggle"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton96"
+        android:textOff="L59"
+        android:textOn="L59"
+        android:layout_alignTop="@+id/toggleButton93"
+        android:layout_toRightOf="@+id/toggleButton92"
+        android:layout_toEndOf="@+id/toggleButton92"
+        android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton97"
+        android:textOff="L60"
+        android:textOn="L60"
+        android:layout_alignTop="@+id/toggleButton96"
+        android:layout_toRightOf="@+id/toggleButton95"
+        android:layout_toEndOf="@+id/toggleButton95"
+        android:textSize="8sp" android:background="@drawable/mybtntoggle1"  android:textColor="@drawable/myselector"/>
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="312dp"
+        android:text="Done"
+        android:id="@+id/button9"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="8dp"
+        android:layout_alignBottom="@+id/toggleButton97"
+        android:background="#803261AC"
+        android:textColor="#fefdfd"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton98"
+        android:textSize="8sp"
+        android:background="@drawable/mybtntoggle"
+        android:textColor="@drawable/myselector"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/toggleButton32"
+        android:layout_toEndOf="@+id/toggleButton32"
+        android:textOff="@string/blank"
+        android:textOn="@string/blank"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton99"
+        android:textSize="8sp"
+        android:background="@drawable/mybtntoggle"
+        android:textColor="@drawable/myselector"
+        android:layout_below="@+id/toggleButton42"
+        android:layout_toRightOf="@+id/toggleButton56"
+        android:layout_toEndOf="@+id/toggleButton56"
+        android:textOff="@string/blank"
+        android:textOn="@string/blank"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton100"
+        android:textSize="8sp"
+        android:background="@drawable/mybtntoggle"
+        android:textColor="@drawable/myselector"
+        android:layout_alignTop="@+id/toggleButton49"
+        android:layout_toRightOf="@+id/toggleButton49"
+        android:layout_toEndOf="@+id/toggleButton49"
+        android:textOff="@string/blank"
+        android:textOn="@string/blank"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton101"
+        android:textSize="8sp"
+        android:background="@drawable/mybtntoggle"
+        android:textColor="@drawable/myselector"
+        android:layout_below="@+id/toggleButton60"
+        android:layout_toRightOf="@+id/toggleButton60"
+        android:layout_toEndOf="@+id/toggleButton60"
+        android:textOff="@string/blank"
+        android:textOn="@string/blank"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton102"
+        android:textSize="8sp"
+        android:background="@drawable/mybtntoggle"
+        android:textColor="@drawable/myselector"
+        android:layout_alignBottom="@+id/toggleButton95"
+        android:layout_toRightOf="@+id/toggleButton95"
+        android:layout_toEndOf="@+id/toggleButton95"
+        android:textOff="@string/blank"
+        android:textOn="@string/blank"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton103"
+        android:textSize="8sp"
+        android:background="@drawable/mybtntoggle"
+        android:textColor="@drawable/myselector"
+        android:layout_above="@+id/toggleButton91"
+        android:layout_toRightOf="@+id/toggleButton87"
+        android:layout_toEndOf="@+id/toggleButton87"
+        android:textOff="@string/blank"
+        android:textOn="@string/blank"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton104"
+        android:textSize="8sp"
+        android:background="@drawable/mybtntoggle"
+        android:textColor="@drawable/myselector"
+        android:layout_above="@+id/toggleButton43"
+        android:layout_toRightOf="@+id/toggleButton38"
+        android:layout_toEndOf="@+id/toggleButton38"
+        android:textOff="@string/blank"
+        android:textOn="@string/blank"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton105"
+        android:textSize="8sp"
+        android:background="@drawable/mybtntoggle"
+        android:textColor="@drawable/myselector"
+        android:layout_below="@+id/button11"
+        android:layout_toRightOf="@+id/toggleButton36"
+        android:layout_toEndOf="@+id/toggleButton36"
+        android:textOff="@string/blank"
+        android:textOn="@string/blank"/>
+
+    <ToggleButton
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton106"
+        android:textSize="8sp"
+        android:background="@drawable/mybtntoggle"
+        android:textColor="@drawable/myselector"
+        android:layout_below="@+id/toggleButton33"
+        android:layout_toLeftOf="@+id/button8"
+        android:layout_toStartOf="@+id/button8"
+        android:textOff="@string/blank"
+        android:textOn="@string/blank"/>
+
+</RelativeLayout>
